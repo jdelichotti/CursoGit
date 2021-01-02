@@ -15,14 +15,10 @@ def raizCuadrada(listaNumeros):
 	Traceback (most recent call last):
   	...
   	ValueError: math domain error
-
 	"""
-
-
-
 	return [math.sqrt(n) for n in listaNumeros]
 
 
-#print (raizCuadrada([9,-16,25,36]))
+print (raizCuadrada([9,16,25,36]))
 
-doctest.testmod()
+#doctest.testmod()#
