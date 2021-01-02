@@ -19,6 +19,6 @@ def raizCuadrada(listaNumeros):
 	return [math.sqrt(n) for n in listaNumeros]
 
 
-print (raizCuadrada([9,16,25,36]))
+print (raizCuadrada([9,16,25]))
 
 #doctest.testmod()#
